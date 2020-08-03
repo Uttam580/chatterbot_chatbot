@@ -46,7 +46,7 @@ I trained  based on  english greetings and conversations corpora.
         english_bot = ChatBot("John", storage_adapter="chatterbot.storage.SQLStorageAdapter")
 
         trainer = ChatterBotCorpusTrainer(english_bot)#allows the chat bot to be trained using data from the ChatterBot dialog corpus.
-        
+
         trainer.train("chatterbot.corpus.english")# trainning based on  english greetings and conversations corpora.```
 
 
@@ -77,6 +77,12 @@ flask-chatterbot-master
  1. Ensure that Python, Flask, SQLAlchemy, and ChatterBot are installed (either manually, or run `pip install -r requirements.txt`).
  2. Run *app.py* with `python app.py`.
  3. The demo will be live at [http://localhost:5000/](http://localhost:5000/)
+
+
+ ###  Bug / Feature Request
+
+If you find a bug (unable to initialize cudnn / or gave undesired results), kindly open an issue <a href = "https://github.com/Uttam580/chatterbot_chatbot/issues/new">here</a> by including your search query and the expected result.
+
 
  ### Resource: 
 
