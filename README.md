@@ -37,6 +37,19 @@ ChatterBot is a library in python which generates responses to user input. It us
 ChatterBot makes it easy to create software that engages in conversation. Every time a chatbot gets the input from the user, it saves the input and the response which helps the chatbot with no initial knowledge to evolve using the collected responses.
 With increased responses, the accuracy of the chatbot also increases. The program selects the closest matching response from the closest matching statement that matches the input, it then chooses the response from the known selection of statements for that response.
 
+I trained  based on  english greetings and conversations corpora.
+
+        ```#created chatbot with name john 
+
+        #SQLStorageAdapter which allows the chat bot to connect to SQL databases. By default, this adapter will create a SQLite database.
+
+        english_bot = ChatBot("John", storage_adapter="chatterbot.storage.SQLStorageAdapter")
+
+        trainer = ChatterBotCorpusTrainer(english_bot)#allows the chat bot to be trained using data from the ChatterBot dialog corpus.
+        
+        trainer.train("chatterbot.corpus.english")# trainning based on  english greetings and conversations corpora.```
+
+
 ### ```Language Independence```
 
 The design of ChatterBot is such that it allows the bot to be trained in multiple languages. On top of this, the machine learning algorithms make it easier for the bot to improve on its own using the user’s input.
