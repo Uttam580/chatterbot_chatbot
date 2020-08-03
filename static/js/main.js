@@ -1,3 +1,4 @@
+/* get response script */
 function getBotResponse() {
     var rawText = $("#textInput").val();
     var userHtml = '<p class="userText"><span>' + rawText + '</span></p>';
