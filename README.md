@@ -42,6 +42,24 @@ With increased responses, the accuracy of the chatbot also increases. The progra
 The design of ChatterBot is such that it allows the bot to be trained in multiple languages. On top of this, the machine learning algorithms make it easier for the bot to improve on its own using the user’s input.
 
 
+### Project Directory Tree
+
+```
+flask-chatterbot-master
+├─ app.py
+├─ demo.gif
+├─ README.md
+├─ requirements.txt
+├─ static
+│  ├─ css
+│  │  └─ style.css
+│  └─ js
+│     └─ main.js
+└─ templates
+   └─ index.html
+
+```
+
 ### Local Setup:
  1. Ensure that Python, Flask, SQLAlchemy, and ChatterBot are installed (either manually, or run `pip install -r requirements.txt`).
  2. Run *app.py* with `python app.py`.
@@ -50,3 +68,5 @@ The design of ChatterBot is such that it allows the bot to be trained in multipl
  ### Resource: 
 
  https://chatterbot.readthedocs.io/en/stable/#
+
+
