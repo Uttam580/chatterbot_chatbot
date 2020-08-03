@@ -81,7 +81,7 @@ flask-chatterbot-master
 
  ###  Bug / Feature Request
 
-If you find a bug (unable to initialize cudnn / or gave undesired results), kindly open an issue <a href = "https://github.com/Uttam580/chatterbot_chatbot/issues/new">here</a> by including your search query and the expected result.
+If you find a bug (AttributeError: 'ChatBot' object has no attribute 'set_trainer/or not getting any output from chatterbot etc), kindly open an issue <a href = "https://github.com/Uttam580/chatterbot_chatbot/issues/new">here</a> by including your search query and the expected result.
 
 
  ### Resource: 
