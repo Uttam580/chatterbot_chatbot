@@ -15,7 +15,7 @@ MarkupSafe==1.1.1
 mathparse==0.1.2
 murmurhash==1.0.2
 nltk==3.5
-numpy==1.19.1
+numpy==1.22.0
 packaging==20.4
 Pint==0.14
 plac==0.9.6
